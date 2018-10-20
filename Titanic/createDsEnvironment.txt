@@ -1,0 +1,20 @@
+1. Create new environments
+2. Click Home, install jupyter notebook
+3. install LightGBM
+		conda install -c conda-forge lightgbm
+4. install xgboost
+		conda install -c anaconda py-xgboost
+5. Launch jupyter notebook & test
+	if jupyter notebook error
+	try to uninstall pyzmq and installing it again 
+		pip uninstall pyzmq 
+		pip install pyzmq
+	and test jupyer notebook again
+	if error, update conda
+		conda update --all
+		
+6. install tensorflow and keras from Anaconda Navigator
+7. Auto complete code
+	-	conda install -y -c conda-forge jupyter_contrib_nbextensions
+	- launch jupyter notebook , At Home page, click Nbextensions
+	- check Hinterland	
